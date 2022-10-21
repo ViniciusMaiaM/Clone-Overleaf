@@ -32,12 +32,17 @@
             \end{document}
         </latex-js>
         
-        <div>
-            <textarea name="escrita" id="" cols="30" rows="10"></textarea>
+        <div class="formulario">
+
+            <form method="get">
+
+                <textarea class="texto" name="write" id="" cols="60" rows="30"></textarea>
+                <button class="envio" type="submit">Compilar</button>
+            </form>
         </div>
 
-        <div>
-            <textarea name="compilado" id="" cols="30" rows="10"></textarea>
+        <div class="compilado">
+            <textarea name="pdf" id="" cols="60" rows="30"></textarea>
         </div>
 
         <latex-js hyphenate="false">
